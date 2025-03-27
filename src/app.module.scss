@@ -1,0 +1,54 @@
+.main {
+  background-color: #444;
+  padding: 24px;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 16px;
+
+  justify-content: center;
+  align-items: center;
+
+  font-size: 18px;
+
+  &__input {
+    border: 2px #555 solid;
+    border-radius: 8px;
+
+    padding: 12px 16px;
+
+    font-size: 20px;
+    color: #fff;
+
+    background-color: transparent;
+
+    &:focus {
+      outline: none;
+      border: 2px #888 solid;
+      border-radius: 8px;
+    }
+  }
+
+  &__button {
+    padding: 12px;
+
+    color: #111;
+    background-color: #eee;
+    border-radius: 8px;
+
+    cursor: pointer;
+    user-select: none;
+  }
+
+  &__content {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-start;
+    gap: 8px;
+  }
+}
